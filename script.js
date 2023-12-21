@@ -48,7 +48,7 @@ $(function() {
             <li>Arcesium India Private Limited</li>
             <li>Doers Guild Software India Private Limited</li>
         </ul>
-        <p>Please type the name of the company:</p>
+        <span>Please type the name of the company:</span>
     `)
 
     var netskopeExperience = $(`
