@@ -126,7 +126,7 @@ $(function() {
         </section>
     `)
 
-    $('#terminal').terminal({
+    var term = $('#terminal').terminal({
         help: function() {
             this.echo(help)
         },
@@ -171,4 +171,5 @@ $(function() {
         greetings: greetings.innerHTML,
         prompt: "[[;#ff9e64;]kpittie [[;#a9b1d6;]:: [[;#bb9af7;]~ [[;#2ac3de;]>>> ]",
     });
+    term.typing('echo', 50, 'Hello World, Begin by typing help');
 });
