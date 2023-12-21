@@ -171,5 +171,5 @@ $(function() {
         greetings: greetings.innerHTML,
         prompt: "[[;#ff9e64;]kpittie [[;#a9b1d6;]:: [[;#bb9af7;]~ [[;#2ac3de;]>>> ]",
     });
-    term.typing('echo', 50, 'Hello World, Begin by typing help');
+    term.typing('echo', 50, 'Hello World, Begin by typing [[;#2ac3de;]\'help\'');
 });
