@@ -126,7 +126,7 @@ $(function() {
         </section>
     `)
 
-    var term = $('#terminal').terminal({
+    $('#terminal').terminal({
         help: function() {
             this.echo(help)
         },
