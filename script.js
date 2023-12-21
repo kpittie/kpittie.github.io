@@ -11,7 +11,7 @@ $(function() {
 
     `)
 
-    var about = $(`<p><span>Hello World</span>, my name is Karan.
+    var about = $(`<p>Hello World, my name is Karan.
     I am a Senior Software Engineer with 7 years of experience
     in developing and managing innovative software applications.
     Skilled in software development, debugging, testing, and troubleshooting
